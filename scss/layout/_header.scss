@@ -1,0 +1,26 @@
+header {
+  background: #ffffff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 15;
+  .top-header {
+    padding: 1.25rem 0 .3rem 0;
+    .logo {
+      width: 200px;
+    }
+  }
+  .navegacion {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient($secondary 5%, $primary 95%);
+  }
+}
+
+@include media-breakpoint-down(xs) { 
+  header {
+    .top-header {
+      text-align: center;
+    }
+  }
+}

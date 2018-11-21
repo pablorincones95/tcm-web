@@ -1,0 +1,10 @@
+.nosotros {
+  background: linear-gradient($secondary 5%, $primary 95%);
+  .fondo-nosotros {
+    background: url('../img/nosotros.png');
+    height: 1214px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
